@@ -1,0 +1,143 @@
+---
+---
+<div class="text-justify">
+	{{ reference | replace_first: 'Dhiman Saha', '<em><u>Dhiman Saha</u></em>' }}
+</div>
+
+{% if entry.note %}
+<div>
+    <em>{{ entry.note }}</em>
+</div>
+{% endif %}
+
+<div class="btn-group">
+	<div class="dropdown">
+		<button class="dropbtn">bib entry</button>
+		<div class="dropdown-content">
+			<span><pre>{{ entry.bibtex }}</pre></span>
+		</div>
+	</div>
+    {% if entry.url %}
+    <button class="button" onclick="document.location = '{{ entry.url }}'">url</button>
+    {% endif %}
+    {% if entry.hal_id %}
+    <span><a href="{{ entry.hal_id | prepend: 'http://hal.inria.fr/' }}">hal</a></span>
+    {% endif %}
+</div>
+<div>
+    {% if entry.pdf %}
+    <span><a href="{{ entry.pdf }}">pdf</a></span>
+    {% endif %}
+</div>
+
+<style>
+.btn-group .button .dropbtn{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  float: left;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: white;
+  color: black;
+  border: 2px solid grey;
+  text-align: center;
+  font-size: 12px;
+  padding: 1px;
+  width: 80px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 12px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -2px;
+  transition: 0.5s;
+}
+
+.button:hover  {background-color: grey; color: white} 
+
+</style>
+
+<style>
+.dropbtn {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: white;
+  color: black;
+  border: 2px solid grey;
+  text-align: center;
+  font-size: 12px;
+  padding: 1px;
+  width: 80px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 12px;
+}
+
+.dropbtn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.dropbtn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: grey; color: white}
+
+</style>

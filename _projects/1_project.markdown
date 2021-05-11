@@ -1,78 +1,53 @@
 ---
-layout: page
-title: project 1
-description: a project with a background image
-img: /assets/img/12.jpg
+title: 5G Security
+layout: distill-team
+description: Lightweight Authentication and Secure Boot. <br> Funded by DoT (INR 30
+  Lakhs)
+img: "/assets/img/5g.jpg"
 importance: 1
 category: work
+authors:
+- name: Dhiman Saha
+  affiliations: EECS IIT Bhilai
+  role: Research Supervisor
+- name: Pabitra Pal
+  affiliations: BSTTM, IIT Delhi
+  role: Project Scientist
+- name: Ahaan Dhabolkar
+  affiliations: Atonarp Microsystems
+  role: Team Lead (Lightweight Authentication)
+- name: Harshvardhan Patel
+  role: Team Lead (Secure Boot)
+- name: Sourya Kakarla
+  role: External Collaborator
+- name: Soumen Debnath
+  role: External Collaborator
+- name: Manas Wadhwa
+  role: Intern
+- name: Satanu Maity
+  role: Developer
+shorttitle: 5G End-to-End Testbed
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+### About the project: 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+The Department of Telecommunications (DoT) has funded a
+large-scale 5G testbed project to encourage Indian startups and the industry to take an
+early lead in 5G. The goal of the project is to build a test bed that closely resembles a
+real-world 5G deployment.The project will deliver an end-to- end 5G testbed comprising
+of 5G BS and UE nodes that support enhanced mobile broadband (eMBB), Ultra low
+latency communication (URLLC) and massive MTC including NB IoT services. This
+testbed could become a basis for many commercial deployments.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+__Who is involved?
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/1.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/3.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+Top Indian institutes and startups such as IITK, IITD, IITM, IISc,
+Sameer, and CEWiT are involved in this project. Many private companies are also a
+part of this effort.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
+* What is our role?
 
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/6.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/" target="_blank">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/6.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-```
+My team at IIT Bhilai is working with BSTTM, IIT Delhi to handle certain secuirty aspects of the 5G.
+We are primarily solving the following problems:
+1. Implementation of various cryptographic algorithms for the purpose of use in passive RFID systems
+2. System Security including secure boot

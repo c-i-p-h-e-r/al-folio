@@ -1,10 +1,12 @@
 ---
-layout: page
-title: project 2
-description: a project with a background image
-img: /assets/img/3.jpg
+title: Secure USB
+layout: distill-team
+description: Secure USB Dongle and ECC Standardisation. <br> Funded by MeitY (INR
+  37 Lakhs)
+img: "/assets/img/usb.png"
 importance: 2
 category: work
+shorttitle: Indigenous Secure USB Dongle
 ---
 
 Every project has a beautiful feature showcase page.

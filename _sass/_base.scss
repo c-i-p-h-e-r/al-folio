@@ -366,13 +366,14 @@ footer.sticky-bottom {
       font-size: 1.5rem;
     }
   }
-  h2.year {
+  .year {
     color: $grey-color-light;
     border-top: 1px solid $grey-color-light;
     padding-top: 1rem;
     margin-top: 2rem;
     margin-bottom: -2rem;
     text-align: right;
+    font-size: 3rem;
   }
   ol.bibliography {
     list-style: none;
