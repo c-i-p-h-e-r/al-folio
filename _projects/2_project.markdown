@@ -3,7 +3,7 @@ title: Secure USB
 layout: distill-team
 description: Secure USB Dongle and ECC Standardisation. <br> Funded by MeitY (INR
   37 Lakhs)
-img: "/assets/img/usb.png"
+img: "/assets/img/usb.jpg"
 importance: 2
 category: work
 shorttitle: Indigenous Secure USB Dongle

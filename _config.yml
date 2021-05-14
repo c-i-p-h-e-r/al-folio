@@ -8,7 +8,7 @@ middle_name:
 last_name: Saha
 email: crypto@dhimans.in
 description:  Webspace for Dr. Dhiman Saha
-footer_text:  Proudly Build With Jekyll 
+footer_text:  Proudly Built With Jekyll 
 icon: 🔥 # the emoji used as the favicon
 url:  http://dhimans.in # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
@@ -43,7 +43,7 @@ gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 linkedin_username: dhimansaha # your LinkedIn user name
 scholar_userid: D_vYGzQAAAAJ # your Google Scholar ID
-orcid_id: # your ORCID ID
+orcid_id: 0000-0002-4668-073X # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
@@ -52,6 +52,7 @@ blogger_url: # your blogger URL
 work_url: https://www.iitbhilai.ac.in/index.php?pid=dhiman # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
+research_group: de.ci.phe.red # my research group page
 
 contact_note: >
         You can reach me at crypto@dhimans.in

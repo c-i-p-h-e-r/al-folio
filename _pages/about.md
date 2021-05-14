@@ -24,7 +24,8 @@ I love computer science and crypto.
 I mostly work in symmetric crypto particularly cryptanlaysis.
 
 Recently I am focusing on :
-* **Lightweigth Cryptography**
+* **Lightweight Cryptography**
+* Symmetric-Key Cryptanalysis
 * Automated Cryptanalysis
 * Cryptographic Hardware
 

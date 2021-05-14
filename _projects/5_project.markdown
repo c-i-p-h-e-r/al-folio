@@ -3,7 +3,7 @@ title: My World Map
 layout: page
 description: Places I chanced upon during my conference presentations and research
   visits
-img: "/assets/img/world-map.png"
+img: "/assets/img/world-map.jpg"
 importance: 3
 category: fun
 ---
